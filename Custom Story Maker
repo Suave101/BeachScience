@@ -1,0 +1,4 @@
+print('Welcome to Custom Story Maker')
+with open("Launch_Code.txt", "w") as f:
+    f.write("{}".format(input('Type your story here:')))
+print('You finished your story') 
